@@ -40,7 +40,7 @@ program
 
 program
   .command("remove <source>")
-  .description("copy listed files from dest to source", {
+  .description("delete listed files", {
     source: "path to source directory"
   })
   .requiredOption(
