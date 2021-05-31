@@ -6,7 +6,7 @@
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "pkg -t node10-win-x64,node10-macos-x64 --out-path dist . && chmod +x dist/*"
+    "package": "pkg -t node10-win-x64,node10-macos-x64 --out-path dist . --options no-warnings && chmod +x dist/*"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "csv-parse": "^4.15.4"
   },
   "devDependencies": {
-    "pkg": "^5.2.1",
+    "pkg": "^4.3.8",
     "prettier": "^2.3.0"
   }
 }
